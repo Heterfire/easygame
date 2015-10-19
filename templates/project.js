@@ -1,7 +1,14 @@
 
 var glo = window.glo || {};
 var isAnimating = false;
-var targetPos;
+var targetPos,
+	status = 0;
+
+// 项目名称
+var _projectName = '<%= grunt.project %>';
+
+// 是否能看3D内容
+glo.nengkan = true;
 
 var stage, game;
 // Edge Loaded 
@@ -10,6 +17,18 @@ AdobeEdge.bootstrapCallback(function(compId) {
 
     // scale to fix screen
     t.scaleToFixScreen(stage.getSymbolElement());
+    // 统计
+    t.analyze(_projectName);
+
+    /**
+     * get platform and version
+     * 		glo.pf.platform = 'Android' / 'iPhone' ...
+     *   	glo.pf.version = 444 / 511 ...
+     */
+    glo.pf = t.getPlatform();
+    if (glo.pf.isWX && glo.pfglo.pf.platform == 'Android' && glo.pf.version < 510) {
+    	glo.nengkan = false;
+    }
 
     // yepnope async load libs
     yepnope({
@@ -41,9 +60,17 @@ function init() {
 	// load scene
 	game.load('models/<%= grunt.project %>.sea', 'inno');
 
-	// loading
+	// loading progress
 	game.addEventListener(Game.PROGRESS, function(p) {
 		console.log((p.progress * 100).toFixed(1) + '%');
+		/*
+		glo.progressText.html((p.progress * 100).toFixed(1) + '%');
+		if (p.type == 'sea3d_download') {
+			glo.progressStatus.html('下载中...');
+		} else {
+			glo.progressStatus.html('场景构建中...');
+		}
+		*/
 	});
 
 	// load compete 
@@ -52,6 +79,7 @@ function init() {
 
 function onLoadComplete() {
 	game.removeEventListener(Game.LOADCOMPLETE, onLoadComplete);
+	t.analyzeIncrease(_projectName, 'sandi');
 	
 	// scene load complete
 	

@@ -29,7 +29,8 @@
 			"templates/*.js",
 			"js/shaders/**.js",
 			"js/postprocessing/**.js",
-			"**/*_grunt.js"
+			"**/*_grunt.js",
+			"projects/_closed/**/*.js"
 		],
 		"libs":
 		[

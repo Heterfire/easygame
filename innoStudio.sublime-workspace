@@ -4,16 +4,284 @@
 		"selected_items":
 		[
 			[
-				"get",
-				"get_env_path"
+				"close",
+				"closedPath	(str)"
+			],
+			[
+				"wr",
+				"writeln"
+			],
+			[
+				"need",
+				"needsUpdate	(bool)"
+			],
+			[
+				"CubeRe",
+				"CubeReflectionMapping	(num)"
+			],
+			[
+				"con",
+				"container	(?)"
+			],
+			[
+				"if",
+				"if	If"
+			],
+			[
+				"line",
+				"linewidth	(num)"
 			],
 			[
 				"cam",
 				"cameraController	{}"
 			],
 			[
+				"ad",
+				"addEventListener(type, listener)"
+			],
+			[
+				"lad",
+				"load(url, groupName)"
+			],
+			[
+				"play",
+				"playSequence(n)"
+			],
+			[
+				"ti",
+				"titleParent	(?)"
+			],
+			[
+				"set",
+				"setOrbitController (fn)"
+			],
+			[
+				"Util",
+				"GeometryUtils (obj)"
+			],
+			[
+				"getSy",
+				"getSymbolElement (?)"
+			],
+			[
+				"ca",
+				"cameraToOriginal (fn)"
+			],
+			[
+				"material",
+				"MeshPhongMaterial (fn)"
+			],
+			[
+				"m",
+				"multiply (fn)"
+			],
+			[
+				"V",
+				"Vector3 (fn)"
+			],
+			[
+				"cu",
+				"curSym (?)"
+			],
+			[
+				"modu",
+				"module (obj)"
+			],
+			[
+				"mod",
+				"models"
+			],
+			[
+				"add",
+				"addEventListener (fn)"
+			],
+			[
+				"camer",
+				"cameraController (obj)"
+			],
+			[
 				"conta",
-				"container	{}"
+				"container (?)"
+			],
+			[
+				"get",
+				"getPlatform (fn/0)"
+			],
+			[
+				"A",
+				"AnimationHandler (obj)"
+			],
+			[
+				"mode",
+				"module (obj)"
+			],
+			[
+				"ne",
+				"nextSym (fn/0)"
+			],
+			[
+				"S",
+				"SceneHandler (fn/3)"
+			],
+			[
+				"scree",
+				"screenMat (obj)"
+			],
+			[
+				"Tes",
+				"TestClass (fn/0)"
+			],
+			[
+				"Test",
+				"TestClass (fn/0)"
+			],
+			[
+				"SEA",
+				"SEA3D (fn/0)"
+			],
+			[
+				"sy",
+				"symEnd (fn/0)"
+			],
+			[
+				"fu",
+				"funck (fn/3)"
+			],
+			[
+				"is",
+				"previousSym (fn)"
+			],
+			[
+				"Nearest",
+				"NearestFilter	(?)"
+			],
+			[
+				"wi",
+				"swiperight()"
+			],
+			[
+				"sw",
+				"swipeleft()"
+			],
+			[
+				"nex",
+				"nextSym(isForward)"
+			],
+			[
+				"pl",
+				"playContinueId	(num)"
+			],
+			[
+				"cur",
+				"curIndex	(num)"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"mus",
+				"music	(?)"
+			],
+			[
+				"mu",
+				"music	(?)"
+			],
+			[
+				"music",
+				"musicOnOff"
+			],
+			[
+				"gr",
+				"progressText	(?)"
+			],
+			[
+				"clear",
+				"clearInterval(interval)"
+			],
+			[
+				"screent",
+				"screenMat	(?)"
+			],
+			[
+				"M",
+				"MOUSEMOVE	(str)"
+			],
+			[
+				"progre",
+				"progressProgress	(?)"
+			],
+			[
+				"anim",
+				"animation	(?)"
+			],
+			[
+				"setANi",
+				"setAnimateMatrix"
+			],
+			[
+				"vid",
+				"videoo	(?)"
+			],
+			[
+				"pla",
+				"playAnimation(objects, animationName, timeScale, repeat, whenFirstComplete)"
+			],
+			[
+				"ting",
+				"tingSym	(?)"
+			],
+			[
+				"en",
+				"enabled	(bool)"
+			],
+			[
+				"vo",
+				"voice2	(?)"
+			],
+			[
+				"when",
+				"whenFirstComplete	(?)"
+			],
+			[
+				"obj",
+				"objects	[]"
+			],
+			[
+				"time",
+				"timeScale	{}"
+			],
+			[
+				"addClass",
+				"addClass(className)"
+			],
+			[
+				"libs",
+				"libsLoaded	(bool)"
+			],
+			[
+				"isAni",
+				"isAnimating	(bool)"
+			],
+			[
+				"isA",
+				"isAniamting	(?)"
+			],
+			[
+				"isAn",
+				"isAnimating	(bool)"
+			],
+			[
+				"da",
+				"dataList	(?)"
+			],
+			[
+				"not",
+				"notAutoRot()"
+			],
+			[
+				"MOU",
+				"MOUSEUP	(str)"
 			],
 			[
 				"sta",
@@ -34,10 +302,6 @@
 			[
 				"visi",
 				"visible	(bool)"
-			],
-			[
-				"ca",
-				"camera	{}"
 			],
 			[
 				"chaiji",
@@ -64,16 +328,8 @@
 				"target	{}"
 			],
 			[
-				"pla",
-				"playGeneralAnimation(animationName, timeScale, repeat)"
-			],
-			[
 				"camera",
 				"camera	{}"
-			],
-			[
-				"if",
-				"if	If"
 			],
 			[
 				"pro",
@@ -88,27 +344,11 @@
 				"removeEventListener(type, listener)"
 			],
 			[
-				"add",
-				"addEventListener(type, listener)"
-			],
-			[
-				"Nearest",
-				"NearestMipMapNearestFilter	(?)"
-			],
-			[
 				"gen",
 				"generateMipmaps	(?)"
 			],
 			[
-				"set",
-				"setTimeout(f, ms)"
-			],
-			[
 				"getSym",
-				"getSymbolElement"
-			],
-			[
-				"getSy",
 				"getSymbolElement"
 			],
 			[
@@ -136,10 +376,6 @@
 				"animation"
 			],
 			[
-				"m",
-				"meshes	[]"
-			],
-			[
 				"upd",
 				"updateAnimation(stateName)"
 			],
@@ -150,10 +386,6 @@
 			[
 				"chaij",
 				"isChaijie"
-			],
-			[
-				"ti",
-				"timeout	(?)"
 			],
 			[
 				"Ado",
@@ -200,10 +432,6 @@
 				"PointerLockControls(camera)"
 			],
 			[
-				"camer",
-				"cameraController	{}"
-			],
-			[
 				"hemis",
 				"HemisphereLight(skyColor, groundColor, intensity)"
 			],
@@ -214,14 +442,6 @@
 			[
 				"jbt",
 				"jbt_visible	(bool)"
-			],
-			[
-				"anim",
-				"animation	{}"
-			],
-			[
-				"time",
-				"timeScale	(num)"
 			],
 			[
 				"upda",
@@ -268,10 +488,6 @@
 				"Matrix4()"
 			],
 			[
-				"ne",
-				"needsUpdate()"
-			],
-			[
 				"Mou",
 				"MOUSEMOVE	(str)"
 			],
@@ -288,10 +504,6 @@
 				"registeComponents(components, path)"
 			],
 			[
-				"cur",
-				"currentPicked	{}"
-			],
-			[
 				"invo",
 				"invokeComponentFunction(object, functionName, param)"
 			],
@@ -302,244 +514,32 @@
 			[
 				"funct",
 				"functionName	(?)"
-			],
-			[
-				"compo",
-				"componentName"
-			],
-			[
-				"comp",
-				"components"
-			],
-			[
-				"sph",
-				"sphereMesh	{}"
-			],
-			[
-				"for",
-				"for	for (…) {…}"
-			],
-			[
-				"sphere",
-				"sphereMesh	{}"
-			],
-			[
-				"clear",
-				"clear(color, depth, stencil)"
-			],
-			[
-				"he",
-				"HemisphereLight(skyColor, groundColor, intensity)"
-			],
-			[
-				"por",
-				"PROGRESS	(str)"
-			],
-			[
-				"con",
-				"container	(?)"
-			],
-			[
-				"sphe",
-				"sphereMat	{}"
-			],
-			[
-				"sc",
-				"scene2	{}"
-			],
-			[
-				"Material",
-				"MeshLambertMaterial(parameters)"
-			],
-			[
-				"sphon",
-				"SphereGeometry(radius, widthSegments, heightSegments, phiStart, phiLength, thetaStart, thetaLength)"
-			],
-			[
-				"utils",
-				"GeometryUtils	{}"
-			],
-			[
-				"Scen",
-				"SceneUtils	{}"
-			],
-			[
-				"ease",
-				"easeOutQuad(val)"
-			],
-			[
-				"easeOut",
-				"easeOutQuad(val)"
-			],
-			[
-				"action",
-				"actionArrayProps(targets, time, attrs, y, z}], cvFunc, over, update)"
-			],
-			[
-				"lo",
-				"load(url, groupName)"
-			],
-			[
-				"val",
-				"val	(?)"
-			],
-			[
-				"gro",
-				"grow (fn/0)"
-			],
-			[
-				"a",
-				"atan2 (fn/2)"
-			],
-			[
-				"loc",
-				"location	{}"
-			],
-			[
-				"proto",
-				"prototype"
-			],
-			[
-				"vec",
-				"Vector3(x, y, z)"
-			],
-			[
-				"load",
-				"loadNpmTasks	(?)"
-			],
-			[
-				"chil",
-				"getChildByName(a, b)"
-			],
-			[
-				"pos",
-				"position	{}"
-			],
-			[
-				"ea",
-				"easeOutBack(val)"
-			],
-			[
-				"ro",
-				"rotateZ(b)"
-			],
-			[
-				"play",
-				"play(name, crossfade, offset)"
-			],
-			[
-				"geo",
-				"geometry	(?)"
-			],
-			[
-				"goe",
-				"geometry"
-			],
-			[
-				"Bu",
-				"BufferGeometry()"
-			],
-			[
-				"mesh",
-				"meshMorph	{}"
-			],
-			[
-				"mor",
-				"morphTargets	[]"
-			],
-			[
-				"0x",
-				"0x00ffaa"
-			],
-			[
-				"La",
-				"MeshLambertMaterial(parameters)"
-			],
-			[
-				"Box",
-				"BoxGeometry(width, height, depth, widthSegments, heightSegments, depthSegments)"
-			],
-			[
-				"No",
-				"NoShading	(num)"
-			],
-			[
-				"Cull",
-				"CullFaceNone	(num)"
-			],
-			[
-				"shad",
-				"shadowMapCullFace	(num)"
-			],
-			[
-				"pcf",
-				"PCFSoftShadowMap	(num)"
-			],
-			[
-				"Ani",
-				"AnimationHandler	{}"
-			],
-			[
-				"mo",
-				"MorphAnimMesh(geometry, material)"
-			],
-			[
-				"Mor",
-				"MorphAnimMesh(geometry, material)"
-			],
-			[
-				"anima",
-				"MorphAnimation(mesh)"
-			],
-			[
-				"PCF",
-				"PCFSoftShadowMap	(num)"
-			],
-			[
-				"box_li",
-				"box_light_anim"
-			],
-			[
-				"shadowMap",
-				"shadowMapHeight	(num)"
-			],
-			[
-				"dis",
-				"distance	(num)"
-			],
-			[
-				"spot",
-				"SpotLight(color, intensity, distance, angle, exponent)"
-			],
-			[
-				"box",
-				"box_light	(?)"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "projects/changhong/changhong.js",
+			"file": "projects/chuangwei/chuangwei.js",
 			"settings":
 			{
-				"buffer_size": 5000,
+				"buffer_size": 8012,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "Gruntfile.js",
+			"file": "js/webShow/game.js",
 			"settings":
 			{
-				"buffer_size": 2102,
+				"buffer_size": 14557,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "projects/chuangwei/chuangwei_grunt.js",
+			"file": "js/webShow/utils.js",
 			"settings":
 			{
-				"buffer_size": 833,
+				"buffer_size": 5412,
 				"line_ending": "Windows"
 			}
 		}
@@ -571,85 +571,77 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 360.0,
-		"last_filter": "grunt",
+		"height": 260.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"grunt",
-				"Grunt"
-			],
-			[
-				"run",
-				"RunCommands"
-			],
-			[
-				"push",
+				"puhs",
 				"Git: Push Current Branch"
 			],
 			[
-				"statu",
+				"status",
 				"Git: Status"
-			],
-			[
-				"eidt",
-				"Project: Edit"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
-			],
-			[
-				"runco",
-				"Run Commands"
-			],
-			[
-				"r",
-				"TernJS: Reload"
 			],
 			[
 				"re",
 				"TernJS: Reload"
 			],
 			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
 				"edit",
-				"Project: Edit"
+				"Project: Edit Project"
+			],
+			[
+				"pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"staut",
+				"Git: Status"
+			],
+			[
+				"edi",
+				"Project: Edit Project"
 			],
 			[
 				"reload",
 				"TernJS: Reload"
 			],
 			[
-				"ru",
-				"Run Commands"
+				"relad",
+				"TernJS: Reload"
 			],
 			[
-				"stats",
+				"snippet",
+				"Snippet: icon"
+			],
+			[
+				"snipp",
+				"Snippet: icon"
+			],
+			[
+				"STATU",
 				"Git: Status"
 			],
 			[
-				"grunta",
-				"GruntArgs"
+				"ins",
+				"Package Control: Install Package"
 			],
 			[
 				"remove",
 				"Package Control: Remove Package"
 			],
 			[
-				"gruntargs",
-				"GruntArgs"
-			],
-			[
-				"gru",
-				"Grunt"
-			],
-			[
-				"grut",
-				"Grunt"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
+				"upda",
+				"Package Control: Upgrade Package"
 			],
 			[
 				"list",
@@ -664,6 +656,62 @@
 				"Gist: Insert Gist"
 			],
 			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"eidt",
+				"Project: Edit"
+			],
+			[
+				"grunt",
+				"Grunt"
+			],
+			[
+				"ru",
+				"RunCommands"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"gru",
+				"Grunt"
+			],
+			[
+				"run",
+				"RunCommands"
+			],
+			[
+				"runco",
+				"Run Commands"
+			],
+			[
+				"r",
+				"TernJS: Reload"
+			],
+			[
+				"stats",
+				"Git: Status"
+			],
+			[
+				"grunta",
+				"GruntArgs"
+			],
+			[
+				"gruntargs",
+				"GruntArgs"
+			],
+			[
+				"grut",
+				"Grunt"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
 				"gist ",
 				"Gist: Create Public Gist"
 			],
@@ -672,16 +720,8 @@
 				"Build: New Build System"
 			],
 			[
-				"user",
-				"Preferences: Settings - User"
-			],
-			[
 				"stat",
 				"Git: Status"
-			],
-			[
-				"snippet",
-				"Snippet: easygamelibs"
 			],
 			[
 				"grunt ",
@@ -738,10 +778,6 @@
 			[
 				"jump",
 				"TernJS: Jump to definition"
-			],
-			[
-				"relad",
-				"TernJS: Reload"
 			],
 			[
 				"subl",
@@ -874,10 +910,6 @@
 			[
 				"create",
 				"HaoGist: Create Public Gist"
-			],
-			[
-				"upda",
-				"HaoGist: Update Gist Description"
 			],
 			[
 				"haoset",
@@ -1019,6 +1051,9 @@
 		"height": 291.0,
 		"history":
 		[
+			"window.run_command('exec','dir');",
+			"div",
+			"grunt",
 			"dir",
 			"view.run_command(\"dir\")",
 			"view.run_command(\"run_commands\")",
@@ -1085,39 +1120,138 @@
 		"show_minimap": false,
 		"show_open_files": false,
 		"show_tabs": false,
-		"side_bar_visible": true,
+		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
 	"expanded_folders":
 	[
 		"/E/myhost/inno studio",
-		"/E/myhost/inno studio/projects"
+		"/E/myhost/inno studio/projects",
+		"/E/myhost/inno studio/resources",
+		"/E/myhost/inno studio/templates"
 	],
 	"file_history":
 	[
-		"/E/myhost/inno studio/projects/changhong/changhong_grunt.js",
+		"/E/myhost/inno studio/Gruntfile.js",
 		"/E/myhost/inno studio/projects/chuangwei/chuangwei_grunt.js",
-		"/E/myhost/inno studio/projects/chuangwei/chuangwei.js",
-		"/E/EdgeWorks/changhong/publish/web/main.js",
-		"/E/myhost/inno studio/.gitignore",
+		"/E/myhost/inno studio/projects/demo/demo.js",
+		"/E/myhost/inno studio/templates/project.js",
+		"/C/Users/easyfrog/Desktop/SuWeb/tiku.xml",
+		"/E/myhost/inno studio/templates/project_grunt.js",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/myhost/inno studio/innoStudio.sublime-project",
 		"/E/myhost/inno studio/package.json",
 		"/E/myhost/inno studio/README.md",
-		"/E/myhost/inno studio/innoStudio.sublime-project",
-		"/E/myhost/inno studio/templates/project_grunt.js",
-		"/E/myhost/inno studio/templates/project.js",
-		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/Grunt/main.py",
+		"/E/myhost/inno studio/projects/_closed/lenovop1/lenovop1_grunt.js",
+		"/E/myhost/inno studio/projects/_closed/changhong/changhong.js",
+		"/E/myhost/inno studio/projects/_closed/changhong/changhong_grunt.js",
+		"/E/myhost/inno studio/projects/_closed/chuangwei/chuangwei_grunt.js",
+		"/E/myhost/inno studio/projects/_closed/chuangwei/chuangwei.js",
+		"/E/myhost/inno studio/projects/_closed/demo/demo.js",
+		"/E/myhost/inno studio/projects/_closed/lenovop1/lenovop1.js",
+		"/E/myhost/inno studio/projects/changhong/asdf/sdfas.js",
+		"/E/myhost/inno studio/node_modules/fs-extra/lib/copy/copy.js",
+		"/E/myhost/inno studio/node_modules/fs-extra/lib/copy/ncp.js",
+		"/E/myhost/inno studio/projects/chuangwei/chuangwei.js",
+		"/E/EdgeWorks/demo/publish/web/index.html",
+		"/E/PhoneGap_works/chuangwei/config.xml",
+		"/E/myhost/inno studio/js/webShow/threeExtend.js",
+		"/E/EdgeWorks/downloadpage/publish/web/index.html",
+		"/E/myhost/inno studio/projects/demo/demo_grunt.js",
+		"/E/myhost/inno studio/projects/lenovop1/lenovop1.js",
+		"/E/myhost/inno studio/js/shaders/FresnelShader.js",
+		"/E/myhost/inno studio/projects/lenovop1/lenovop1_grunt.js",
+		"/E/PhoneGap_works/LenovoP1/www/index.html",
+		"/E/PhoneGap_works/chuangwei/www/main.js",
+		"/E/myhost/inno studio/js/webShow/SceneHandler.js",
+		"/E/PhoneGap_works/LenovoP1/config.xml",
+		"/E/myhost/inno studio/js/webShow/utils.js",
+		"/E/PhoneGap_works/chuangwei/www/index.html",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/easyfrogSnippets/html/icon.sublime-snippet",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/TernJS/TernJS.sublime-settings",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/TernJS.sublime-settings",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/E/myhost/inno studio/js/loaders/sea3d.js",
+		"/E/myhost/inno studio/js/coms/com_PointLockController.js",
+		"/D/libs/Sea3D/sea3d-c59e19feabf17381b46500e6a2c8da4f9275713e/Examples/Programmer/WebGL/Three.JS/Basics/vertex-animation.html",
+		"/E/UnityProjects/lianzheng/Assets/Mega-Fiers/Scripts/MegaFiers/Modifiers/MegaModifyObject.cs",
+		"/E/UnityProjects/lianzheng/lianzheng.sln",
+		"/E/myhost/inno studio/js/controls/OrbitControls.js",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/tern_for_sublime/tern.py",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-settings",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/Tern.sublime-settings",
+		"/E/myhost/inno studio/.tern-project",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/tern_for_sublime/node_modules/tern/package.json",
+		"/E/myhost/inno studio/projects/changhong/changhong.js",
+		"/E/myhost/inno studio/js/webShow/game.js",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/easyfrogSnippets/html/tern-project.sublime-snippet",
+		"/E/myhost/inno studio/test.js",
+		"/E/myhost/inno studio/innoStudio.tern-project",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-keymap",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/E/myhost/inno studio/projects/changhong/changhong_grunt.js",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/easyfrogSnippets/html/wxurl.sublime-snippet",
+		"/E/EdgeWorks/changhong/publish/web/index.html",
+		"/E/myhost/inno studio/js/shaders/CopyShader.js",
+		"/E/myhost/inno studio/js/tools/edgeToolsBase.js",
+		"/E/PhoneGap_works/chuangwei/www/js/index.js",
+		"/E/PhoneGap_works/chuangwei/plugins/cordova-plugin-whitelist/whitelist.js",
+		"/E/projects/flag/index.html",
+		"/E/PhoneGap_works/chuangwei/www/css/index.css",
+		"/E/myhost/inno studio/projects/changhong/com_AutoRot.js",
+		"/C/Users/easyfrog/Desktop/test.js",
+		"/E/myhost/inno studio/js/loaders/SEA3DLoader.js",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/TernJS/tern.py",
+		"/E/myhost/inno studio/build/easygame.min.js",
+		"/E/myhost/inno studio/js/loaders/sea3d.min.js",
+		"/E/myhost/inno studio/js/threejs/three.js",
+		"/D/libs/Sea3D/sea3d-gh-pages/Exporter/3dsMax/SEA3D/SEA3D.ms",
+		"/C/Users/easyfrog/Desktop/sea3d-c59e19feabf17381b46500e6a2c8da4f9275713e/Examples/Programmer/WebGL/Three.JS/Basics/vertex-animation.html",
+		"/E/myhost/inno studio/projects/test/test.js",
+		"/D/libs/Sea3D/sea3d-c59e19feabf17381b46500e6a2c8da4f9275713e/Source/WebGL/Three.JS/SEA3DLoader.js",
+		"/C/Users/easyfrog/Desktop/sea3d-c59e19feabf17381b46500e6a2c8da4f9275713e/Examples/Programmer/WebGL/Three.JS/Basics/js/three.js",
+		"/E/EdgeWorks/CHIQ2/publish/web/js/edge.6.0.0.min.js",
+		"/E/EdgeWorks/changhong/publish/web/main.js",
+		"/E/EdgeWorks/CHIQ2/publish/web/html/index.html",
+		"/E/EdgeWorks/CHIQ2/publish/web/js/edgeToolsBase.js",
+		"/E/myhost/Intel_1111/index.html",
+		"/E/EdgeWorks/CHIQ2/publish/web/CHIQ_edge.js",
+		"/D/libs/edge.5.0.1.js",
+		"/E/EdgeWorks/CHIQ2/publish/web/index.html",
+		"/E/EdgeWorks/CHIQ2/CHIQ_edge.js",
+		"/E/EdgeWorks/CHIQ2/publish/web/js/CHIQ_edge.js",
+		"/C/Users/easyfrog/Desktop/index.html",
+		"/E/EdgeWorks/CHIQ2/publish/web/CHIQ4_edge.js",
+		"/E/EdgeWorks/CHIQ/publish/web/index.html",
+		"/E/EdgeWorks/CHIQ/CHIQ.html",
+		"/C/Users/easyfrog/Desktop/SuWeb/web5.7/web/u3d.html",
+		"/C/Users/easyfrog/Desktop/SuWeb/web5.7/web/pic26.html",
+		"/C/Users/easyfrog/Desktop/SuWeb/web5.7/web/outdoor.html",
+		"/C/Users/easyfrog/Desktop/SuWeb/web5.7/web/index.html",
+		"/D/libs/Sea3D/sea3d-gh-pages/Examples/Programmer/WebGL/Three.JS/Basics/vertex-animation.html",
+		"/C/Users/easyfrog/Desktop/TileOut9.22/history/history.css",
+		"/E/EdgeWorks/CHIQ/publish/web/CHIQa_edge.js",
+		"/E/myhost/inno studio/projects/changhong/com_AutoScale.js",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/D/libs/Sea3D/sea3d-gh-pages/Source/WebGL/SDK/SEA3D.js",
+		"/D/libs/Sea3D/sea3d-gh-pages/Source/WebGL/Three.JS/SEA3DLoader.js",
+		"/D/libs/Sea3D/sea3d-gh-pages/Examples/Programmer/WebGL/Three.JS/Basics/bigmodel.html",
+		"/D/libs/Sea3D/sea3d-gh-pages/Source/WebGL/Three.JS/SEA3DLegacyLoader.js",
+		"/E/myhost/inno studio/.gitignore",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/RunCommands/Default.sublime-keymap",
 		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/RunCommands/runcommands.py",
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/Grunt/main.py",
+		"/E/myhost/inno studio/projects/fuck/fuck_grunt.js",
+		"/E/projects/fuck/main.js",
 		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/Grunt/Default.sublime-commands",
 		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/MyPlugins/RunCommands/Default.sublime-commands",
 		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/MyPlugins/RunCommands/runcommands.py",
 		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/Grunt/README.md",
 		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/Grunt/package-metadata.json",
 		"/C/Users/easyfrog/Desktop/edge.5.0.1.js",
-		"/E/myhost/inno studio/js/webShow/utils.js",
 		"/C/Users/easyfrog/Desktop/command_base.py",
-		"/E/myhost/inno studio/Gruntfile.js",
 		"/E/myhost/inno studio/projects/hello/hello_grunt.js",
-		"/E/myhost/inno studio/projects/lenovop1/lenovop1_grunt.js",
 		"/E/myhost/inno studio/projects/hello/hello.js",
 		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/Minify/Minify.py",
 		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/Grunt/Main.sublime-menu",
@@ -1125,104 +1259,7 @@
 		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/Grunt/expose.js",
 		"/C/Users/easyfrog/Desktop/windows_completion.py",
 		"/C/Users/easyfrog/Desktop/reloader.py",
-		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/ShellCommand.sublime-keymap",
-		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/ShellCommand/Default.sublime-commands",
-		"/E/myhost/inno studio/projects/lenovop1/lenovop1.js",
-		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/ShellCommand/Default.sublime-keymap",
-		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/ShellCommand/ShellCommand.sublime-settings",
-		"/E/myhost/inno studio/projects/kkk/kkk.js",
-		"/E/myhost/inno studio/projects/test/test_grunt.js",
-		"/E/myhost/inno studio/projects/test.js",
-		"/E/myhost/inno studio/projects/'adsf'.js",
-		"/C/Users/easyfrog/Desktop/AdvancedNewFile.py",
-		"/E/myhost/inno studio/js/webShow/game.js",
-		"/E/myhost/inno studio/index.html",
-		"/E/myhost/inno studio/include.js",
-		"/E/myhost/inno studio/projects/lenovop1",
-		"/E/myhost/inno studio/scripts/com_Pickable.js",
-		"/E/myhost/inno studio/scripts/main.js",
-		"/E/myhost/inno studio/grunts/main_grunt.js",
-		"/E/myhost/inno studio/grunts/changhong_grunt.js",
-		"/E/build.min.js",
-		"/E/myhost/inno studio/build/easygame.min.js",
-		"/E/EdgeWorks/Lesson1/publish/web/index.html",
-		"/E/myhost/nubia Z9/main.js",
-		"/E/EdgeWorks/Demo/diyike/publish/web/index.html",
-		"/E/EdgeWorks/changhong/publish/web/index.html",
-		"/E/myhost/inno studio/grunts/demo_grunt.js",
-		"/E/myhost/inno studio/scripts/demo.js",
-		"/E/myhost/inno studio/cordovaScreenSaverUsed.md",
-		"/E/myhost/inno studio/js/coms/com_PointLockController.js",
-		"/E/EdgeWorks/Demo/diyike/publish/web/main.js",
-		"/C/Users/easyfrog/Desktop/SuWeb/Web/Assets/(MMO)RPG Camera & Controller/Scripts/RPG_Animation.cs",
-		"/E/myhost/inno studio/build/easygame_all.min.js",
-		"/E/EdgeWorks/changhong/publish/web/libs/Detector.js",
-		"/E/EdgeWorks/changhong/publish/web/libs/easygame.js",
-		"/E/myhost/inno studio/js/tools/edgeToolsBase.js",
-		"/E/PhoneGap_works/LenovoP1/www/edge.6.0.0.min.js",
-		"/E/EdgeWorks/changhong/publish/web/libs/edgeToolsBase.js",
-		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/E/myhost/inno studio/js/postprocessing/BokehPass.js",
-		"/E/myhost/inno studio/scripts/lenovop1.js",
-		"/E/myhost/inno studio/build/build.min.js",
-		"/E/myhost/inno studio/js/webShow/SceneHandler.js",
-		"/E/myhost/inno studio/js/threejs/three.js",
-		"/E/myhost/inno studio/js/loaders/sea3d.js",
-		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/easyfrogSnippets/html/easygamelibs.sublime-snippet",
-		"/E/EdgeWorks/changhong/publish/web/changhong.html",
-		"/E/myhost/inno studio/grunts/lenovop1_grunt.js",
-		"/E/PhoneGap_works/LenovoP1/www/index.html",
-		"/E/EdgeWorks/changhong/publish/web/build.min.js",
-		"/E/PhoneGap_works/LenovoP1/www/build.min.js",
-		"/E/myhost/inno studio/js/loaders/sea3d.min.js",
-		"/E/myhost/inno studio/js/threejs/three.min.js",
-		"/E/myhost/inno studio/grunts/lenovop1.js",
-		"/E/myhost/inno studio/js/webShow/Tween.js",
-		"/E/myhost/inno studio/js/webShow/threeExtend.js",
-		"/D/libs/Sea3D/sea3d-gh-pages/Examples/table/hello-world.html",
-		"/E/PhoneGap_works/LenovoP1/config.xml",
-		"/D/libs/Sea3D/sea3d-gh-pages/Examples/Programmer/WebGL/Three.JS/js/three.js",
-		"/D/libs/Sea3D/sea3d-gh-pages/Examples/Programmer/WebGL/Three.JS/Basics/js/three.js",
-		"/E/PhoneGap_works/Gionee/www/index.html",
-		"/D/libs/Sea3D/sea3d-gh-pages/Examples/table/js/sea3d.min.js",
-		"/D/libs/Sea3D/sea3d-gh-pages/Examples/table/js/three.js",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/src/com/inno/lenovop1/Receiver.java",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/src/com/inno/lenovop1/Bridge.java",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/src/com/inno/lenovop1/MainActivity.java",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/src/com/inno/lenovop1/MyService.java",
-		"/E/PhoneGap_works/LenovoP1/plugins/android.json",
-		"/E/myhost/inno studio/cordovaScreenSaverUsed.html",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/AndroidManifest.xml",
-		"/E/PhoneGap_works/Gionee/plugins/android.json",
-		"/E/PhoneGap_works/LenovoP1/www/Lenovo.html",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/res/xml/config.xml",
-		"/E/PhoneGap_works/Gionee/platforms/android/res/xml/config.xml",
-		"/E/PhoneGap_works/LenovoP1/plugins/fetch.json",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/assets/www/cordova.js",
-		"/E/PhoneGap_works/LenovoP1/platforms/platforms.json",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/.project",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/build.gradle",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/settings.gradle",
-		"/E/PhoneGap_works/Gionee/platforms/android/AndroidManifest.xml",
-		"/E/PhoneGap_works/Gionee/platforms/android/bin/AndroidManifest.xml",
-		"/E/PhoneGap_works/Gionee/config.xml",
-		"/E/PhoneGap_works/Gionee/platforms/android/src/com/inno/gionee/MainActivity.java",
-		"/E/PhoneGap_works/LenovoP1/platforms/android/CordovaLib/AndroidManifest.xml",
-		"/E/PhoneGap_works/Gionee/platforms/android/src/com/inno/gionee/MyService.java",
-		"/E/PhoneGap_works/Gionee/platforms/android/src/com/inno/gionee/Bridge.java",
-		"/E/myhost/inno studio/build/build.js",
-		"/E/myhost/inno studio/js/controls/OrbitControls.js",
-		"/D/libs/Sea3D/sea3d-gh-pages/Examples/Programmer/WebGL/Three.JS/Basics/hello-world.html",
-		"/C/Users/easyfrog/Desktop/table/hello-world.html",
-		"/C/Users/easyfrog/Desktop/table/js/three.js",
-		"/D/libs/Sea3D/sea3d-gh-pages/Examples/Programmer/WebGL/Three.JS/Basics/vertex-animation.html",
-		"/D/libs/Sea3D/sea3d-gh-pages/Examples/Programmer/WebGL/Three.JS/Basics/keyframe.html",
-		"/E/myhost/inno studio/js/controls/PointerLockControlsKeyboard.js",
-		"/E/myhost/inno studio/js/controls/ztc_PointerLockControls.js",
-		"/E/myhost/inno studio/js/controls/PointerLockControls.js",
-		"/E/myhost/inno studio/scripts/pickable.js",
-		"/E/myhost/inno studio/js/postprocessing/EffectComposer.js",
-		"/E/myhost/inno studio/js/shaders/SSAOShader.js"
+		"/C/Users/easyfrog/AppData/Roaming/Sublime Text 3/Packages/User/ShellCommand.sublime-keymap"
 	],
 	"find":
 	{
@@ -1237,9 +1274,92 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"closedPath",
+			"'projects/_closed/'",
+			"isZheShe",
+			"zheshe",
+			"onDeviceReady",
+			"chaijieCam",
+			"titleParent",
+			"setOr",
+			"timeout",
+			"cameraToOrigin",
+			"camPathAnim",
+			"screen",
+			"Screen",
+			"screen",
+			"<script type=\"text/javascript\" charset=\"utf-8\" src=\"http://res.wx.qq.com/open/js/jweixin-1.0.0.js\"></script>",
+			"mainCamera",
+			"pause",
+			"autoRot()",
+			"autoRot",
+			"notAutoRot",
+			"setRelative",
+			"THREE.SEA3D",
+			"show",
+			"glo.p1",
+			"glo.p1 ",
+			"蒙面歌王之夜，谁是王中之王？N种选择，不如选N",
+			"_getFullUrl",
+			"getFullURL",
+			"geturl",
+			"Dir",
+			"imagesDir",
+			"_getFullURL",
+			"getFullUrl",
+			"yepnope",
+			"AdobeEdge.loadComposition",
+			"key",
+			"currentConentSym",
+			"glo.load",
+			"game.pause",
+			"currentConentSym",
+			"glo.currentConentSym.show();",
+			"show",
+			"glo.currentConent",
+			"glo.ting",
+			"voice",
+			"addLayer",
+			"1.3",
+			";\n",
+			"ting",
+			"objs",
+			"File",
+			"AnimationHandler",
+			"SEA3D.File",
+			"loadBytes",
+			"game.cameraController.enabled",
+			"game.cameraController.enabled = false;",
+			"game.cameraController",
+			"VertexAni",
+			"attribs",
+			"THREE.SEA3D",
+			"this.file.typeRead",
+			"VertexAnimation",
+			"File",
+			"VertexAnimation",
+			"readMesh",
+			"VertexAnimation",
+			"VertexAnimationMesh",
+			"isAniamting",
+			"isAnimating",
+			"isAniamting",
+			"isAnimating",
+			"isAniamting",
+			"glo.content",
+			"glo.content.",
+			"isAnimating",
+			"VertexAnimationMesh",
+			"vertex",
+			"AnimationData",
+			"dataType",
+			"isAnimating",
+			"autoRo",
+			"targetPos",
+			"cache_file_name",
 			"targetPos",
 			"Kill",
 			"self.window",
@@ -1284,90 +1404,7 @@
 			"_lastFrame",
 			"AnimationNode",
 			"Animator",
-			"AnimationNode",
-			"getFrameAt",
-			"setFrame",
-			"updateAnimationFrame",
-			"updateAnimationState",
-			"curMouse",
-			"prototype",
-			"TextureAnimation",
-			"animation",
-			"TextureAnimator",
-			"Sprite",
-			"f0f0c0",
-			"background",
-			"f1f1f1",
-			"rnd",
-			"s",
-			"canPicked",
-			"f0f0f0",
-			"componentsArr",
-			"components",
-			"invokeComponentFunction",
-			"enabled",
-			"vector",
-			"com_kao",
-			"componentNames",
-			"invokeComponentFunction",
-			"this",
-			"componentName",
-			"comTesta",
-			"comTest2",
-			"object",
-			"update",
-			"Update",
-			"UPDATE",
-			"update",
-			"UPDATE",
-			"Update",
-			"update",
-			"s.",
-			"p",
-			"camera2",
-			"loadComplete",
-			"container",
-			"cameraController",
-			"position",
-			"camera",
-			"s.",
-			"addEventListener",
-			"ztc",
-			"r71",
-			"Consolas",
-			"font",
-			"sidebar",
-			"font",
-			"sidebar",
-			"nuanlight",
-			"seaMap",
-			"projector",
-			"Projector",
-			"projector",
-			"webShow",
-			"mainCam",
-			"Projector",
-			"projector",
-			"oldValue",
-			"relative",
-			"loadComplete",
-			"webShow",
-			"ztc.",
-			"i",
-			"MorphAnimMesh",
-			"Geometry",
-			"deltaTime",
-			"light",
-			".mpha",
-			"mpha",
-			"delta",
-			"time",
-			"Morpha",
-			"window",
-			"setSize",
-			"spot",
-			"box_light",
-			"setTimeout(function() {\n			box_light.animation.pause();\n		}, 300);\n"
+			"AnimationNode"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1378,7 +1415,7 @@
 			"f0f0c0",
 			""
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -1387,94 +1424,94 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "projects/changhong/changhong.js",
+					"file": "projects/chuangwei/chuangwei.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5000,
+						"buffer_size": 8012,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4703,
-								4703
+								433,
+								433
 							]
 						],
 						"settings":
 						{
-							"_anf_new": "",
-							"auto_indent": true,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Soda.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Gruntfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2102,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								240,
-								240
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "projects/chuangwei/chuangwei_grunt.js",
+					"buffer": 1,
+					"file": "js/webShow/game.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 833,
+						"buffer_size": 14557,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								138,
-								138
+								4,
+								4
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Soda.tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/webShow/utils.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5122,
+								5122
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Soda.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3904.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1485,7 +1522,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -1560,12 +1597,24 @@
 		"selected_items":
 		[
 			[
-				"len",
-				"scripts\\lenovop1.js"
+				".ter",
+				".tern-project"
+			],
+			[
+				"uti",
+				"js\\webShow\\utils.js"
+			],
+			[
+				"gam",
+				"js\\webShow\\game.js"
 			],
 			[
 				"game",
 				"js\\webShow\\game.js"
+			],
+			[
+				"len",
+				"scripts\\lenovop1.js"
 			],
 			[
 				"gru",
@@ -1602,10 +1651,6 @@
 			[
 				"inde",
 				"index.html"
-			],
-			[
-				"gam",
-				"js\\webShow\\game.js"
 			],
 			[
 				"to",
@@ -1685,12 +1730,20 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "u",
 		"selected_items":
 		[
 			[
-				"",
+				"u",
 				"E:\\EdgeWorks\\utils\\utils.sublime-project"
+			],
+			[
+				"op",
+				"D:\\Program Files (x86)\\Git\\projects\\openshift.sublime-project"
+			],
+			[
+				"",
+				"E:\\myhost\\inno studio\\innoStudio.sublime-project"
 			],
 			[
 				"uti",
@@ -1711,10 +1764,6 @@
 			[
 				"unit",
 				"C:\\Users\\easyfrog\\Desktop\\SuWeb\\Web\\unity_web.sublime-project"
-			],
-			[
-				"u",
-				"E:\\EdgeWorks\\utils\\utils.sublime-project"
 			],
 			[
 				"unitywe",
@@ -1751,10 +1800,6 @@
 			[
 				"nub",
 				"E:\\myhost\\nubia Z9\\nubiaz9.sublime-project"
-			],
-			[
-				"op",
-				"D:\\Program Files (x86)\\Git\\projects\\openshift.sublime-project"
 			],
 			[
 				"nu",
@@ -1820,7 +1865,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 240.0,
+	"side_bar_width": 223.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

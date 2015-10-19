@@ -267,6 +267,7 @@
 			for (var i = 0; i < intersections.length; i++) {
 				var obj = intersections[i].object;
 				if (!('mouseEnabled' in obj) || obj.mouseEnabled) {
+					game.lastPickedObj = obj;
 					return obj;
 				}
 			};
@@ -311,6 +312,7 @@
 
 			Game.instance.components.push(com);
 			saveInvoke(com, 'start');
+			return com;
 		} else {
 			setTimeout(function() {
 				s.addComponent(comName);
@@ -544,15 +546,41 @@
 	};
 
 	/**
-	 * 得到相机与控制器的位置数据
+	 * 指定物体(组), 来播放指定的动画
 	 */
-	Game.prototype.printCameraInfo = function() {
-		var p = this.camera.position;
-		var r = this.camera.rotation;
-		var t = this.cameraController.target;
-		console.log('position:', p.x.toFixed(2) + ',' + p.y.toFixed(2) + ',' + p.z.toFixed(2), 
-					'rotation:', r.x.toFixed(2) + ',' + r.y.toFixed(2) + ',' + r.z.toFixed(2),
-					'target:', t.x.toFixed(2) + ',' + t.y.toFixed(2) + ',' + t.z.toFixed(2));
+	Game.prototype.playAnimation = function(objects, animationName, timeScale, repeat, whenFirstComplete) {
+		animationName = animationName || 'general';
+		timeScale = timeScale || 1;
+		if (repeat == undefined) {
+			repeat == false;
+		}
+
+		objects = objects || Game.instance.sea.meshes;
+		if (!(objects instanceof Array)) {
+			objects = [].concat(objects);
+		}
+		for (var i = 0; i < objects.length; i++) {
+			var obj = objects[i];
+			var anim = obj.animation;
+			var animNode;
+			if (anim) {
+				animNode = obj.animation.animationSet.animations[animationName];
+			}
+
+			if (anim && animNode) {
+				if (i == 0) {
+					anim.onComplete = function() {
+						if (whenFirstComplete) {
+							whenFirstComplete();
+						}
+					};
+				}
+				anim.timeScale = timeScale;
+				animNode.repeat = repeat;
+
+				anim.play(animationName);
+			}
+		};
 	};
 
 	/**
